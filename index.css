@@ -1,0 +1,51 @@
+.runner{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 60vh;
+    border: 1px solid black;
+    color: aliceblue;
+    overflow: hidden;
+    opacity:0.8;
+}
+.navbar{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+a.navbar-brand{
+    color:aliceblue;
+    background-color: black;
+    border-radius: 50%;
+}
+.strength{
+    background-image: url("images/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-duration: 1s;
+}
+.mobility{
+    background-image: url("images/img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+.drill{
+    background-image: url("images/img3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.more{
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color:aliceblue;
+    width: fit-content;
+    transform: rotate(270deg);
+    margin-right:0;
+    margin-left: auto;
+    /* align-self:flex-end; */
+    display: none;
+}
+.display{
+    display:block;
+}
